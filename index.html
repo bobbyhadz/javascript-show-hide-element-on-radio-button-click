@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>bobbyhadz.com</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <style>
+    #box {
+      display: none;
+      background-color: blueviolet;
+      color: white;
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+  <body>
+    <p>Select an option:</p>
+
+    <div>
+      <input
+        type="radio"
+        id="hide"
+        name="example"
+        value="hide"
+        checked
+      />
+      <label for="hide">Hide</label>
+    </div>
+
+    <div>
+      <input
+        type="radio"
+        id="show"
+        name="example"
+        value="show"
+      />
+      <label for="show">Show</label>
+    </div>
+
+    <div id="box">Box is now shown</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
